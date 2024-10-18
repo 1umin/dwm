@@ -78,20 +78,20 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 
 // sound volume
 static const char *volup[] = { "amixvup.sh", NULL }; 
-static const char *voldown[] = { "/home/volund/Documents/vin-docx/scripts/volume-control/amixvdown.sh", NULL };
-static const char *voltog[] = { "/home/volund/Documents/vin-docx/scripts/volume-control/amixvtog.sh", NULL };
+static const char *voldown[] = { "amixvdown.sh", NULL };
+static const char *voltog[] = { "amixvtog.sh", NULL };
 
 // sound microphone
-static const char *micup[] = { "/home/volund/Documents/vin-docx/scripts/volume-control/amixmup.sh", NULL };
-static const char *micdown[] = { "/home/volund/Documents/vin-docx/scripts/volume-control/amixmdown.sh", NULL };
-static const char *mictog[] = { "/home/volund/Documents/vin-docx/scripts/volume-control/amixmtog.sh", NULL };
+static const char *micup[] = { "amixmup.sh", NULL };
+static const char *micdown[] = { "amixmdown.sh", NULL };
+static const char *mictog[] = { "amixmtog.sh", NULL };
 
 // launchers
 //static const char *scshot[] = { "" }
 static const char *termcmd[]  = { "st", NULL };
 static const char *filem[] = { "pcmanfm", NULL };
 static const char *cord[] = { "discord", NULL };
-static const char *suspendcmd[] = { "/home/volund/Documents/vin-docx/scripts/lock.sh", NULL };
+static const char *suspendcmd[] = { "lock.sh", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
