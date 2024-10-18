@@ -1,4 +1,4 @@
-gnore all object files
+ignore all object files
 *.o
 
 # Ignore build directory
