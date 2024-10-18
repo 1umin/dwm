@@ -1,0 +1,1 @@
+pulsemixer --toggle-mute

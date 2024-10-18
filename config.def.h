@@ -77,14 +77,14 @@ static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() 
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 
 // sound volume
-static const char *volup[] = { "amixvup.sh", NULL }; 
-static const char *voldown[] = { "amixvdown.sh", NULL };
-static const char *voltog[] = { "amixvtog.sh", NULL };
+static const char *volup[] = { "/home/volund/Documents/vin-docx/scripts/volume-control/amixvup.sh", NULL }; 
+static const char *voldown[] = { "/home/volund/Documents/vin-docx/scripts/volume-control/amixvdown.sh", NULL };
+static const char *voltog[] = { "/home/volund/Documents/vin-docx/scripts/volume-control/amixvtog.sh", NULL };
 
 // sound microphone
-static const char *micup[] = { "amixmup.sh", NULL };
-static const char *micdown[] = { "amixmdown.sh", NULL };
-static const char *mictog[] = { "amixmtog.sh", NULL };
+static const char *micup[] = { "/home/volund/Documents/vin-docx/scripts/volume-control/amixmup.sh", NULL };
+static const char *micdown[] = { "/home/volund/Documents/vin-docx/scripts/volume-control/amixmdown.sh", NULL };
+static const char *mictog[] = { "/home/volund/Documents/vin-docx/scripts/volume-control/amixmtog.sh", NULL };
 
 // launchers
 //static const char *scshot[] = { "" }
