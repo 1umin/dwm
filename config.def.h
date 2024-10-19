@@ -91,7 +91,7 @@ static const char *mictog[] = { "/home/volund/Documents/vin-docx/scripts/volume-
 static const char *termcmd[]  = { "st", NULL };
 static const char *filem[] = { "pcmanfm", NULL };
 static const char *cord[] = { "discord", NULL };
-static const char *suspendcmd[] = { "lock.sh", NULL };
+static const char *suspendcmd[] = { "/home/volund/Documents/vin-docx/scripts/lock.sh", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
