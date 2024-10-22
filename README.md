@@ -7,6 +7,5 @@ fullgaps* - Provide spacing around the windows.
 
 alwayscenter* - Every pop-up window will be aligned at the center.
 
-pertag*  - Gives the ability to choose which mode you want to imply to each tag. Also the dimension for each mode would be the same despite being used by different tags.
-
+Pertatg* – Provides the ability to choose which mode to apply to each tag. Additionally, the dimensions for each mode remain the same, regardless of which tags use them.
 
