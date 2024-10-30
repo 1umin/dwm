@@ -93,11 +93,13 @@ static const char *filem[] = { "pcmanfm", NULL };
 static const char *cord[] = { "discord", NULL };
 static const char *sound[] = { "/home/volund/Documents/vin-docx/scripts/stmul.sh", NULL };
 static const char *suspendcmd[] = { "/home/volund/Documents/vin-docx/scripts/lock.sh", NULL };
+static const char *term2[] = { "xfce4-terminal", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
+	{ MODKEY|ControlMask,		XK_t, 	   spawn, 	   {.v = term2} },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
